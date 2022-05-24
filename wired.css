@@ -3,7 +3,7 @@
     --main: black;
     --off: white;
 
-    --main-color: var(--main);
+    --main-color: var(--off);
     --main-secondary-color: var(--main);
     --background-color: var(--main);
     --background-dark-color: var(--off);

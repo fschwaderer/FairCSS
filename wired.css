@@ -5,7 +5,7 @@
 
     --main-color: var(--main);
     --main-secondary-color: var(--main);
-    --background-color: var(--off);
+    --background-color: var(--main);
     --background-dark-color: var(--off);
     --background-light-color: var(--off);
     --placeholder-color: gray;
@@ -13,7 +13,7 @@
     --eta-best: white;
     --eta-mid: darkgray;
     --eta-worst: gray;
-    --text-color: var(--main);
+    --text-color: var(--off);
     --text-light-highlight-color: var(--main-secondary-color);
     --text-dark-highlight-color: var(--main-secondary-color);
     --text-error-color: var(--placeholder-color);

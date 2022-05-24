@@ -1,0 +1,176 @@
+
+
+:root.wired button:not(.accordion-button):hover {
+  color: black !important;
+}
+
+:root.wired body {
+
+    --button-color: #c1b492;
+    --main-color: #bf8599;
+    --secondary-color: #fab9c8;
+    --active-color: #c1b49222;
+    --button-hover-background-color: var(--secondary-color);
+
+    font-family: 'Consolas', sans-serif;
+    cursor: url("https://fauux.neocities.org/cursor.gif"), auto;
+    opacity: 1;
+    color: var(--main-color);
+    background-image: url('https://fauux.neocities.org/bg205.gif');
+    background-blend-mode: screen;
+}
+
+:root.wired .promoted td {
+    color: var(--main-color);
+}
+
+:root.wired .promoted {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+:root.wired thead th {
+    background-color: rgba(0, 0, 0, 0.94);
+    font-size: 1.1rem;
+}
+
+:root.wired thead {
+    top: -.5rem;
+}
+
+:root.wired tr {
+    font-size: 1.05rem;
+}
+
+:root.wired .ladder-row tr:not(.promoted, .you) td {
+    color: var(--secondary-color);
+    background-color: var(--active-color);
+}
+
+:root.wired nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+:root.wired .message {
+    padding-right: 5px;
+}
+
+:root.wired .message-header {
+    justify-content: space-around;
+}
+
+:root.wired .message-date {
+    color: #c1b492bb;
+    opacity: 0.8;
+    align-content: flex-end;
+}
+
+:root.wired body:before {
+
+    background-position: 50% 0;
+}
+
+
+:root.wired .text-highlight,
+:root.wired .message-user-id,
+:root.wired .chat-mention-user-id {
+    color: var(--secondary-color);
+}
+
+:root.wired table {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    margin-bottom: 4px;
+}
+
+:root.wired table::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+:root.wired table thead tr {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+:root.wired table tbody tr {
+    font-size: 1.05rem;
+}
+
+:root.wired tbody:first:child {
+    position: sticky;
+}
+
+:root.wired .btn,
+:root.wired a {
+    cursor: url("https://fauux.neocities.org/cursor2.gif"), auto;
+}
+
+:root.wired btn-group .dropdown {
+    border-radius: .25rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+:root.wired #chatInput,
+:root.wired .btn-outline-primary,
+:root.wired .btn-outline-primary[data-v-02a2ccc4],
+:root.wired .btn-outline-primary[data-v-c6031280] {
+    color: var(--secondary-color) !important;
+    border-color: var(--main-color) !important;
+    outline-color: var(--main-color) !important;
+}
+
+:root.wired #chatInput::placeholder {
+    color: var(--secondary-color);
+}
+
+:root.wired .btn-outline-primary.active,
+:root.wired .btn-outline-primary.show .btn-outline-primary.hover {
+    background-color: var(--main-color);
+}
+
+:root.wired #chatInput[data-v-02a2ccc4] {
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+:root.wired .navbar .navbar-toggler,
+:root.wired .navbar .navbar-toggler i {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+:root.wired .ladder-row .you {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+:root.wired .you .text-end {
+    font-weight: bold;
+}
+
+:root.wired .chat-window {
+    height: 97%;
+}
+
+:root.wired .chat-content,
+:root.wired .row .py-1 .ladder-row {
+    scrollbar-width: none;
+}
+
+:root.wired .message-header,
+:root.wired .chat-mention,
+:root.wired .chat-mention-at {
+    color: var(--main-color);
+}
+
+:root.wired {
+    --eta-best: green;
+    --eta-mid: orange;
+    --eta-worst: red;
+}

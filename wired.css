@@ -16,7 +16,6 @@
     cursor: url("https://fauux.neocities.org/cursor.gif"), auto;
     opacity: 1;
     color: var(--main-color);
-  background-image: url('https://fauux.neocities.org/bg205.gif');
     background-blend-mode: screen;
 }
 

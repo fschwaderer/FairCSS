@@ -1,11 +1,11 @@
-:root.black-n-white-light {
+:root.black-n-white {
 
-    --main: black;
-    --off: white;
+    --main: white;
+    --off: black;
 
-    --main-color: var(--off);
+    --main-color: var(--main);
     --main-secondary-color: var(--main);
-    --background-color: var(--main);
+    --background-color: var(--off);
     --background-dark-color: var(--off);
     --background-light-color: var(--off);
     --placeholder-color: gray;
@@ -13,7 +13,7 @@
     --eta-best: white;
     --eta-mid: darkgray;
     --eta-worst: gray;
-    --text-color: var(--off);
+    --text-color: var(--main);
     --text-light-highlight-color: var(--main-secondary-color);
     --text-dark-highlight-color: var(--main-secondary-color);
     --text-error-color: var(--placeholder-color);

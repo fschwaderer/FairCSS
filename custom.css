@@ -1,8 +1,8 @@
 :root.black-n-white {
     --main-color: white;
-    --main-secondary-color: black;
-    --background-color: SlateBlue;
-    --background-dark-color: green;
+    --main-secondary-color: gray;
+    --background-color: black;
+    --background-dark-color: black;
     --background-light-color: Navy;
     --placeholder-color: Goldenrod;
     --item-selected-color: DarkMagenta;

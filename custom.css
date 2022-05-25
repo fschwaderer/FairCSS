@@ -1,28 +1,28 @@
-:root.custom {
+:root.blue {
     --main-color: silver;
     --main-secondary-color: silver;
     --background-color: #1C1C1C;
     --background-dark-color: #1C1C1C;
     --background-light-color: gray;
-    --placeholder-color: gray;
+    --placeholder-color: CadetBlue;
     --item-selected-color: gray;
     --eta-best: green;
-    --eta-mid: yellow;
-    --eta-worst: red;
+    --eta-mid: Khaki;
+    --eta-worst: salmon;
     --text-color: silver;
-    --text-light-highlight-color: var(--main-secondary-color);
-    --text-dark-highlight-color: var(--main-secondary-color);
-    --text-error-color: var(--placeholder-color);
-    --button-color: var(--main-secondary-color);
-    --button-hover-color: var(--background-color);
-    --button-hover-background-color: var(--button-color);
+    --text-light-highlight-color: red;
+    --text-dark-highlight-color: salmon;
+    --text-error-color: red;
+    --button-color: CadetBlue;
+    --button-hover-color: #1C1C1C;
+    --button-hover-background-color: CadetBlue;
     --you-color: black;
-    --you-background-color: orange;
-    --promoted-color: var(--text-light-highlight-color);
-    --promoted-background-color: var(--background-dark-color);
-    --header-color: var(--main-color);
-    --navbar-color: var(--background-dark-color);
-    --offcanvas-background-color: var(--background-light-color);
-    --link-hover-color: gray;
-    --link-color: white;
+    --you-background-color: CadetBlue;
+    --promoted-color: CadetBlue;
+    --promoted-background-color: black;
+    --header-color: gray;
+    --navbar-color: #1C1C1C;
+    --offcanvas-background-color: lightgray;
+    --link-hover-color: white;
+    --link-color: CadetBlue;
 }

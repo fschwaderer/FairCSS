@@ -1,9 +1,9 @@
 :root.black-n-white {
     --main-color: white;
-    --main-secondary-color: white;
-    --background-color: black;
-    --background-dark-color: black;
-    --background-light-color: black;
+    --main-secondary-color: DarkSlateGray;
+    --background-color: gray;
+    --background-dark-color: gray;
+    --background-light-color: gray;
     --placeholder-color: gray;
     --item-selected-color: gray;
     --eta-best: white;

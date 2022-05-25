@@ -1,11 +1,11 @@
 :root.black-n-white {
     --main-color: white;
     --main-secondary-color: grey21;
-    --background-color: DimGray;
-    --background-dark-color: DimGray;
-    --background-light-color: DimGray;
-    --placeholder-color: DimGray;
-    --item-selected-color: DimGray;
+    --background-color: grey21;
+    --background-dark-color: grey21;
+    --background-light-color: grey21;
+    --placeholder-color: grey21;
+    --item-selected-color: grey21;
     --eta-best: white;
     --eta-mid: darkgray;
     --eta-worst: gray;

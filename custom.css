@@ -1,11 +1,11 @@
 :root.black-n-white {
-    --main-color: Silver;
-    --main-secondary-color: DarkSlateGray;
-    --background-color: DimGray;
-    --background-dark-color: DimGray;
-    --background-light-color: DimGray;
-    --placeholder-color: DimGray;
-    --item-selected-color: DimGray;
+    --main-color: white;
+    --main-secondary-color: white;
+    --background-color: black;
+    --background-dark-color: black;
+    --background-light-color: black;
+    --placeholder-color: gray;
+    --item-selected-color: gray;
     --eta-best: white;
     --eta-mid: darkgray;
     --eta-worst: gray;

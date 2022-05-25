@@ -1,7 +1,7 @@
 :root.black-n-white {
     --main-color: white;
     --main-secondary-color: gray;
-    --background-color: black;
+    --background-color: #363636;
     --background-dark-color: black;
     --background-light-color: Navy;
     --placeholder-color: Goldenrod;

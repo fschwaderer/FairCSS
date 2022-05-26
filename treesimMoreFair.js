@@ -1044,7 +1044,7 @@ function runSimulation(printOut, current) {
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].points = 0
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].power = 0
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].bias = 0
-				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].multi += 1
+				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].multiplier += 1
 				simulatedLadderData.rankers.sort((a, b) => b.points - a.points);
 				simulatedLadderData.rankers.forEach((ranker, index) => {
 					ranker.rank = index + 1;
@@ -1054,7 +1054,7 @@ function runSimulation(printOut, current) {
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].points = 0
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].power = 0
 				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].bias = 4
-				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].multi += 1
+				simulatedLadderData.rankers.filter(x => x.accountId == simulatedRanker)[0].multiplier += 1
 				simulatedLadderData.rankers.sort((a, b) => b.points - a.points);
 				simulatedLadderData.rankers.forEach((ranker, index) => {
 					ranker.rank = index + 1;

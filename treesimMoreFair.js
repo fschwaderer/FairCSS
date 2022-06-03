@@ -405,53 +405,7 @@ window.writeNewRow = function(body, ranker) {
     //const theirEtaToOne = (timeToOneMap.has(ranker.accountId) ? timeToOneMap.get(ranker.accountId).time : Infinity);
 
     // Power edit
-    const yourEtaToOne = Number(store._modules.root.state.ladder.ladder.yourRanker.power);
-    const theirEtaToOne = Number(ranker.power);
-
-    if (ranker.you) {
-        row.style['background-color'] = RankerColors.you;
-    }
-    else if (!ranker.growing) {
-        row.style['background-color'] = RankerColors.promoted;
-    }
-    else if (ranker.multiplier == 3 && ranker.power > Math.pow(store._modules.root.state.ladder.ladder.ladderNumber + 1, 4)){
-        row.style['background-color'] = RankerColors.multi_x3_can_x4;
-    }
-    else if (ranker.multiplier == 1){
-        row.style['background-color'] = RankerColors.multi_x1;
-    }
-    else if (store._modules.root.state.ladder.ladder.yourRanker.multiplier < ranker.multiplier) {
-        row.style['background-color'] = RankerColors.high_multi;
-    }
-    else if (store._modules.root.state.ladder.ladder.yourRanker.multiplier > ranker.multiplier) {
-        row.style['background-color'] = RankerColors.low_multi;
-    }
-    else if (yourEtaToOne < theirEtaToOne) {
-        if (store._modules.root.state.ladder.ladder.yourRanker.bias < ranker.bias){
-            row.style['background-color'] = RankerColors.same_multi_higher_bias_stronger;
-        }
-        else if(store._modules.root.state.ladder.ladder.yourRanker.bias > ranker.bias){
-            row.style['background-color'] = RankerColors.same_multi_lower_bias_stronger;
-        }
-        else{
-            row.style['background-color'] = RankerColors.theyBeatYou; //RankerColors.youBeatThem;
-        }
-    }
-    else if (yourEtaToOne > theirEtaToOne) {
-        if (store._modules.root.state.ladder.ladder.yourRanker.bias < ranker.bias){
-            row.style['background-color'] = RankerColors.same_multi_higher_bias_weaker;
-        }
-        else if(store._modules.root.state.ladder.ladder.yourRanker.bias > ranker.bias){
-            row.style['background-color'] = RankerColors.same_multi_lower_bias_weaker;
-        }
-        else{
-            row.style['background-color'] = RankerColors.youBeatThem; //RankerColors.theyBeatYou;
-        }
-    }
-    else if (yourEtaToOne === theirEtaToOne) {
-        row.style['background-color'] = RankerColors.tie;
-    }
-}
+    
 
 window.getStatsComparison = function () {
     let lowerMultiLowerBias = 0;
